@@ -1,6 +1,6 @@
-let addToDoButton = document.getElementsByClassName('addButton')
-let toDoContainer = document.getElementsByClassName('container')
-let inputField = document.getElementsByClassName('input')
+let addToDoButton = document.querySelector('.addButton')
+let toDoContainer = document.querySelector('.container')
+let inputField = document.querySelector('.input')
 
 addToDoButton.addEventListener('click', function () {
         var paragraph = document.createElement('p');
